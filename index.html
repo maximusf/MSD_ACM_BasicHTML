@@ -1,0 +1,81 @@
+<!-- This is a comment that will be ignored -->
+
+<!DOCTYPE html>   <!-- This tells the browser that this is HTML-5 -->
+<html>
+    <head>      <!-- This is what the website will load in -->
+        <meta charset="utf-8">      <!-- this translates letters/symbols into computer speak -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">      <!-- This makes the website responsive to different devices -->
+        <title>This is my web page name</title>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    </head>
+
+
+
+
+    <body>     <!-- Everything you SEE in the page will be in the body tag -->
+        <!-- Header -->
+        <h1>Header 1</h1>
+        <h2>Header 2</h2>
+        <h3>Header 3</h3>
+        <h4>Header 4</h4>
+        <h5>Header 5</h5>
+        <h6>Header 6</h6>
+
+        <!-- Paragraph -->
+        <p>This is my first paragraph</p>
+
+        <!-- Formatting -->
+        <b>bold text</b>
+        <i>italic text</i>
+        <u>underlined text</u>
+        <s>strikethrough text</s>
+
+
+
+        <!-- Line Break -->
+        <br>
+        <br>
+        <!-- Link -->
+        <b><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Free Robux</a> </b>
+
+        <!-- Numbered List -->
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+
+        <!-- Bullet List -->
+        <ul>
+            <li>Item a</li>
+            <li>Item b</li>
+            <li>Item c</li>
+        </ul>
+
+        <!-- Image -->
+        <img src="dog.png">
+
+        <!-- Button to play sound -->
+        <button onclick="playSound()">Play Sound</button>
+
+        <!-- Audio element -->
+        <audio id="sound">
+            <source src="Vine-boom-sound-effect.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <script>
+            // Function to play the sound
+            function playSound() {
+                var audio = document.getElementById("sound");
+                audio.play();
+            }
+        </script>
+
+
+    </body>
+</html>
+
